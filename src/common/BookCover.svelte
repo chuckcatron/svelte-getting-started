@@ -10,7 +10,7 @@
 
 {#if interactive}
   <a href="/books/{book.id}" use:links class="book book--interactive book--variation-{book.variation} {isValidUrl(book.cover) ? 'cover' : 'book--no--cover'}">
-    <span class="cover" style={isValidUrl(book.cover) ? 'background-image: url(' + book.cover + ')' : ''}>
+    <span class="cover" style={isValidUrl(book.cover) ? "background-image: url('" + book.cover + "')" : ''}>
       <span class="title">{book.title || ''}</span>
       <span class="author">{book.author || ''}</span>
     </span>
@@ -20,7 +20,7 @@
     class="book book--variation-{book.variation}
 {isValidUrl(book.cover) ? 'book--cover' : 'book--no-cover'}"
   >
-    <div class="cover" style={isValidUrl(book.cover) ? 'background-image: url(' + book.cover + ')' : ''}>
+    <div class="cover" style={isValidUrl(book.cover) ? "background-image: url('" + book.cover + "')" : ''}>
       <header>
         <h2 class="title">{book.title || ''}</h2>
       </header>

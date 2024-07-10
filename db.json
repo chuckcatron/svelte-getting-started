@@ -40,6 +40,24 @@
       "cover": "",
       "about": "Man hunts whale with a vengeance. In the end, he's the last man stand. I guess he won.",
       "variation": 1
+    },
+    {
+      "id": "798a",
+      "title": "Test Title",
+      "author": "Test Author",
+      "cover": "https://i.imgur.com/XH4zqCK.jpg",
+      "about": "",
+      "variation": 1,
+      "favorite": false
+    },
+    {
+      "id": "14d7",
+      "title": "Test Title",
+      "author": "Test Author",
+      "cover": "https://via.placeholder.com/150",
+      "about": "",
+      "variation": 1,
+      "favorite": false
     }
   ]
 }
